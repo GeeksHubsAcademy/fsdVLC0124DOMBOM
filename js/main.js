@@ -18,4 +18,16 @@ arrayCuadrados.map(
     }
 )
 
+let singulares = ['manzana', 'banana', 'naranja'];
 
+/*
+let plurales = singulares.map(
+    fruta => {
+        return fruta + 's'
+    }
+)
+*/
+
+let plurales = singulares.map(fruta => fruta + 's');
+
+console.log(plurales);
